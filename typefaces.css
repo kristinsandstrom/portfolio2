@@ -1,0 +1,162 @@
+@font-face{
+	font-family:"Ortica";
+	src: url("font/Ortica-Light.otf") format("opentype");
+}
+@font-face{
+	font-family: HokusGlitz;
+	src: url("font/HokusGlitz-Regular.ttf") format("truetype"); 
+
+}
+
+@font-face{
+	font-family:TyperVariable ;
+	src: url("font/TyperVariableGX.ttf") format("truetype"); 
+
+}
+
+@font-face{
+	font-family: CowboySerif;
+	src: url("font/Cowboyserif-regular.ttf") format("truetype"); 
+
+}
+
+body{
+	overflow:none;
+	background-color:black;
+	color:white;
+
+}
+
+h2{
+	font-family:"Ortica", helvetica;
+	font-size:35px;
+	line-height:42px;
+	font-weight:normal;
+	margin-bottom:0%;
+	margin-top:0%;
+	letter-spacing:1px;
+}
+
+h1{
+	font-family:"Ortica", helvetica;
+	font-size:25px;
+	line-height:33px;
+	font-weight:normal;
+	
+	/*text-indent:33px;*/
+	margin-bottom:4%;
+	margin-top:0%;
+}
+
+h3{
+	font-family:"Ortica";
+	font-weight:normal;
+	font-size: 2.5vw;
+	max-font-size:18px;
+	display:flex;
+	padding: 0% 2% 0% 2%;
+	margin:0% 10% 0% 10%;
+	justify-content: space-between;
+	color:white;
+	
+}
+
+p{
+	font-family:"Ortica", helvetica;
+	font-weight:normal;
+	font-size:35px;
+	display:flex;
+	justify-content:center;
+	padding-top:150px;
+	
+	
+}
+
+#hokus{
+	font-family:"HokusGlitz";
+	color:black;
+	font-weight:normal;
+	
+}
+
+#typer{
+	font-family: "TyperVariable";
+	font-variation-settings: "wght" 100;
+	font-weight:normal;
+	transition:4s;
+	color:black;
+}
+
+#cowboy{
+	font-family:"CowboySerif";
+	color:black;
+	font-weight:normal;
+	
+}
+
+.font{
+	
+	font-size:50px;
+	font-size:5vw;
+	line-height:10px;
+	display:flex;
+	justify-content: flex-start;
+	padding: 2% 2% 2% 2%;
+	border:2px black solid;
+	background-color:white;
+	margin:0% 10% 2% 10%;
+	cursor:text;
+    overflow-x: scroll;
+       overflow-y: hidden;
+       height: 100px;
+	   height:10vw;
+       white-space:nowrap;
+	letter-spacing: 0.3vw;
+	
+	
+}
+
+.image{
+	
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:10px;	
+
+}
+video{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;	
+
+     height: auto;
+     margin-bottom: 4vh;
+     margin-top: 4vh;
+	 border:none;
+	 position:center;
+	 display:flex;
+ 	flex-wrap:wrap;
+ 	align-content:center;
+ 	flex-direction:column;
+	
+}
+
+
+.videowrapper{
+	
+	display:flex;
+	flex-wrap:wrap;
+	align-content:center;
+	flex-direction:column;
+}
+
+a:link, a:visited {
+	color:white;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	color:	#F0E68C;
+	background-color:transparent;
+	text-de

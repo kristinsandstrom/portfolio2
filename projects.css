@@ -1,0 +1,210 @@
+@font-face{
+	font-family:"Ortica";
+	src: url("font/Ortica-Light.otf") format("opentype");
+}
+
+
+
+
+/*
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+*/
+
+html{
+	background-color:#f7f7f7;
+}
+
+body{
+	overflow:none;
+	
+	
+}
+
+/*COMPUTER*/
+@media screen and (min-width: 600px) { 
+h1{
+	font-family:"Ortica";
+	font-weight:normal;
+	font-size:4vh;
+	line-height:4.5vh;
+	margin-left:4%;
+	margin-right:4%;
+	margin-bottom:0px;
+	margin-top:0px;
+	}
+}
+
+/* PHONE */
+@media screen and (max-width: 600px) {
+h1{
+	font-family:"Ortica";
+	font-weight:normal;
+	font-size:3vh;
+	line-height:3.5vh;
+	padding-left:5;
+	padding-right:5;
+	
+	margin-bottom:0px;
+	margin-top:0px;
+	}
+}
+
+h2{
+	font-family:"Ortica";
+	font-weight:normal;
+	font-size:20vh;
+	text-transform: uppercase;
+	justify-text:center;
+	line-height:20vw;
+}
+
+/*COMPUTER*/
+@media screen and (min-width: 600px) { 
+h3{
+	font-family:"Ortica",helvetica;
+	font-size:6vh;
+	line-height:6.5vh;
+	letter-spacing:1px;
+	text-transform: uppercase;
+	font-weight:normal;
+	margin-left:4%;
+	margin-top:0px;
+	margin-bottom:4%;
+	color:black;	
+} 
+}
+
+/* PHONE */
+@media screen and (max-width: 600px) {
+h3{
+	font-family:"Ortica",helvetica;
+	font-size:4vh;
+	line-height:4.5vh;
+	letter-spacing:1px;
+	text-transform: uppercase;
+	font-weight:normal;
+	padding-left:5;
+	padding-right:5;
+	margin-top:0px;
+	margin-bottom:4%;
+	
+	color:black;	
+} 
+}
+
+/*COMPUTER*/
+@media screen and (min-width: 600px) { 
+.parent {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+margin-left:4%;
+margin-right:4%;
+margin-top:4%;
+margin-bottom:4%;
+}
+}
+/* PHONE */
+@media screen and (max-width: 600px) {
+.parent {
+display: grid;
+grid-template-columns: repeat(1fr);
+grid-template-rows: repeat(10fr);
+grid-column-gap: 0px;
+grid-row-gap: 10px;
+margin-left:0%;
+margin-right:0%;
+margin-top:4%;
+margin-bottom:8%;
+padding:none;
+
+}
+}
+
+/*COMPUTER*/
+@media screen and (min-width: 600px) { 
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 2; }
+.div4 { grid-area: 2 / 2 / 3 / 3; }
+.div5 { grid-area: 3 / 1 / 4 / 2; }
+.div6 { grid-area: 3 / 2 / 4 / 3; }
+.div7 { grid-area: 4 / 1 / 5 / 2; }
+.div8 { grid-area: 4 / 2 / 5 / 3; }
+.div9 { grid-area: 5 / 1 / 6 / 2; }
+.div10 { grid-area: 5 / 2 / 6 / 3; }
+}
+
+
+
+.image{
+	
+	width:100%;
+	margin:0;
+}
+
+img.hoverimg {
+	position:absolute;
+	display:none;
+	width:30%;
+	
+	
+}
+
+.up{
+	text-align:right;
+	margin-right:4%;
+	margin-bottom:4%;
+}
+
+.contact{
+	margin-top:4%;
+}
+
+span.hoverimg {
+	color:black;
+	text-decoration:underline;
+	text-shadow: 0 0 3px white;
+	
+	
+	
+}
+
+a:link, a:visited {
+	color:black;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	color:	#F0E68C;
+	background-color:transparent;
+	text-de
+}
+
+#space{
+	padding-bottom:50px;
+	padding-top:30px;
+}
+
+
+/*
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+
+  
+  font-size: 30px;
+  text-align: center;
+}
+
+body{
+	background-color:white;
+}
+*/

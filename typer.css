@@ -1,0 +1,163 @@
+@font-face{
+	font-family:"Ortica";
+	src: url("font/Ortica-Light.otf") format("opentype");
+}
+
+body{
+	overflow:none;
+	background-color:black;
+	color:white;
+
+}
+
+/*COMPUTER*/
+@media screen and (min-width: 600px) { 
+h2{
+	font-family:"Ortica", helvetica;
+	font-size:6vh;
+	line-height:42px;
+	font-weight:normal;
+	margin-bottom:0%;
+	margin-top:0%;
+	letter-spacing:1px;
+}
+}
+
+/* PHONE */
+@media screen and (max-width: 600px) {
+h2{
+	font-family:"Ortica", helvetica;
+	font-size:3vh;
+	line-height:4vh;
+	font-weight:normal;
+	margin-bottom:0%;
+	margin-top:0%;
+	letter-spacing:1px;
+}
+}
+
+/*COMPUTER*/
+@media screen and (min-width: 600px) { 
+h1{
+	font-family:"Ortica", helvetica;
+	font-size:4vh;
+	line-height:5vh;
+
+	font-weight:normal;
+	
+	/*text-indent:33px;*/
+	margin-bottom:0%;
+	margin-top:0%;
+}
+}
+
+/* PHONE */
+@media screen and (max-width: 600px) { 
+h1{
+	font-family:"Ortica", helvetica;
+	font-size:2.5vh;
+	line-height:3.5vh;
+	font-weight:normal;
+	
+	/*text-indent:33px;*/
+	margin-bottom:0%;
+	margin-top:0%;
+}
+}
+
+p{
+	font-family:"Ortica", helvetica;
+	font-weight:normal;
+	font-size:35px;
+	display:flex;
+	justify-content:center;
+	padding-top:150px;
+	
+}
+
+.parent{
+	margin-top:4%;
+}
+
+/*COMPUTER*/
+@media screen and (min-width: 600px) { 
+.image{
+	
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:10px;	
+}
+}
+
+/* PHONE */
+@media screen and (max-width: 600px) { 
+.image{
+	
+	width:95%;
+	margin-left:2.5%;
+	margin-right:2.5%;
+	margin-bottom:10px;	
+}
+}
+
+
+/*COMPUTER*/
+@media screen and (min-width: 600px) { 
+video{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;	
+
+     height: auto;
+     margin-bottom: 4vh;
+     margin-top: 4vh;
+	 border:none;
+	 position:center;
+	 display:flex;
+ 	flex-wrap:wrap;
+ 	align-content:center;
+ 	flex-direction:column;
+}	
+}
+
+
+/* PHONE */
+@media screen and (max-width: 600px) { 
+video{
+	width:95%;
+	margin-left:2.5%;
+	margin-right:2.5%;	
+
+     height: auto;
+     margin-bottom: 4vh;
+     margin-top: 4vh;
+	 border:none;
+	 position:center;
+	 display:flex;
+ 	flex-wrap:wrap;
+ 	align-content:center;
+ 	flex-direction:column;
+}
+}
+
+
+.videowrapper{
+	
+	display:flex;
+	flex-wrap:wrap;
+	align-content:center;
+	flex-direction:column;
+}
+
+a:link, a:visited {
+	color:white;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	color:	#F0E68C;
+	background-color:transparent;
+	text-de
+}
